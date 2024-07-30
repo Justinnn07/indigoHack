@@ -1,0 +1,27 @@
+@font-face {
+  font-family: indigoPrimaryFont;
+  src: url(./assets/Bauhaus\ Fonts/Bauhaus.otf);
+}
+
+:root {
+  --animate-duration: 5s;
+  --animate-delay: 4s;
+}
+
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: indigoPrimaryFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://www.goindigo.in/content/dam/s6web/in/en/assets/splash-screen-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
