@@ -42,3 +42,8 @@ This project is a frontend application built with React.js, utilizing React Quer
    ```
 
 - Could integrate SMS, Email as well using twillio, but didnt had much time.
+
+
+## Author
+### Name - Justin Varghese
+### Contact - 9319275200
