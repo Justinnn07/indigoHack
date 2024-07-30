@@ -51,6 +51,7 @@ This project is a frontend application built with React.js, utilizing React Quer
 
 - React.js
 - React Query
+- Socket.IO
 - Firebase Messaging
 
 ### Installation Steps
@@ -66,6 +67,7 @@ This project is a frontend application built with React.js, utilizing React Quer
 - **Firebase Messaging**: Push notifications for real-time updates.
 - **Updating Flight Data**: Send notifications to users when flight data is updated.
 - **Email Notifications**: Send email notifications for updates.
+- **Socket.IO**: Real-time flight updates between the database and client.
 
 ### Installation Steps
 
