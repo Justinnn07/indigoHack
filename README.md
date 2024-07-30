@@ -22,6 +22,7 @@ This project is a frontend application built with React.js, utilizing React Quer
    cd <repository-directory>
    npm install
    npm run start
+```
 
 ## Backend
 ### Features
@@ -38,5 +39,6 @@ This project is a frontend application built with React.js, utilizing React Quer
    cd <repository-directory>
    pip install -r requirements.txt
    python3 main.py
+   ```
 
 - Could integrate SMS, Email as well using twillio, but didnt had much time.
