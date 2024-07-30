@@ -16,6 +16,7 @@ const Router = () => {
 
   const { notification } = useFirebaseNotifications();
 
+  console.log(notification);
   useEffect(() => {
     if (notification?.title) {
       toast(` ${notification.body}`);

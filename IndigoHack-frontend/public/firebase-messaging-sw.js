@@ -5,14 +5,14 @@ importScripts(
 );
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBeRk17ICFkXIa5_3j_cTJfyn47lvgXHeQ",
-  authDomain: "indigohack-225ca.firebaseapp.com",
-  projectId: "indigohack-225ca",
-  storageBucket: "indigohack-225ca.appspot.com",
-  messagingSenderId: "435566989318",
-  appId: "1:435566989318:web:05df241f126fe1cb053387",
+  apiKey: "AIzaSyAAS0QJs2qrD8UjWFp5fhWIN33qigTYk10",
+  authDomain: "indigohack-59191.firebaseapp.com",
+  projectId: "indigohack-59191",
+  storageBucket: "indigohack-59191.appspot.com",
+  messagingSenderId: "708468330850",
+  appId: "1:708468330850:web:29052395715b7664885c3b",
+  measurementId: "G-JXR1RT9D8P",
 };
-
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 

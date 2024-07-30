@@ -1,5 +1,4 @@
-import datetime
-from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import generate_password_hash
 
 class Flight:
     def __init__(self, airline, departure, arrival, flight_status):

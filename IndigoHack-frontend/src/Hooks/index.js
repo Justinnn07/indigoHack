@@ -395,7 +395,7 @@ export const useFirebaseNotifications = () => {
         if (permission === "granted") {
           const token = await getToken(messaging, {
             vapidKey:
-              "BNc79hETvlnDqefm1nnoGc6x6bSUYo6x8ZnRIE7ST7TaaCnjlvCk4-ydMAwmnGmM6XtzI392QxuynW_gVWhn0T8",
+              "BD2kgOb9qA56b6Ka3rQZkLt4OVoMQGj9SJ-qcp7pQhpIAc92qs_t3LK31CuSx8qQioacWl1Uhi4IsxBzJ5Vle7w",
           });
           if (token) {
             console.log(token);
