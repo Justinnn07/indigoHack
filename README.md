@@ -9,6 +9,8 @@ This project is a frontend application built with React.js, utilizing React Quer
 - **CRUD Operations for Fleet Management**: Create, Read, Update, Delete fleet details.
 - **CRUD Operations for User Management**: Create, Read, Update, Delete user details.
 - **Firebase Messaging**: Push notifications for real-time updates.
+-  **Flight Listings**: List available flights.
+
 
 ### Tech Stack
 - React.js
@@ -29,6 +31,8 @@ This project is a frontend application built with React.js, utilizing React Quer
 - **CRUD Operations for Fleet Management**: Create, Read, Update, Delete fleet details.
 - **CRUD Operations for User Management**: Create, Read, Update, Delete user details.
 - **Firebase Messaging**: Push notifications for real-time updates.
+- **Updating Flight Data**: Send notifications to users when flight data is updated.
+
 
 - ** while updating the flight data and sending notif to the flight users 
 
