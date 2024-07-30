@@ -35,6 +35,14 @@
 - When a non admin user logs in the home screen will get his flight which he is travelling
 - Takes his notification token and saves in Database
 
+### Email Notification
+
+![](./screenshots/email_notification.png)
+
+### Push Notification
+
+![](./screenshots/in_app_notification.png)
+
 ### Description
 
 This project is a frontend application built with React.js, utilizing React Query for data fetching and state management. It includes CRUD functionalities for managing fleets and users, and integrates Firebase Cloud Messaging for push notifications.
