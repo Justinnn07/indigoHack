@@ -325,6 +325,32 @@ def update_flight(flight_id):
         logger.error(f"Error updating flight: {e}")
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/search-flights', methods=['POST'])
+@cross_origin()
+def search_flights():
+    try:
+        data = request.json
+        airline_code = data.get('airline_code')
+        
+        if not airline_code:
+            return jsonify({"error": "Missing required query parameter: airline_code"}), 400
+
+        flights = list(mongo.db.departures.find({"airline.code": airline_code}))
+        for flight in flights:
+            flight['_id'] = str(flight['_id'])
+        
+        if flights:
+            logger.debug(f"Flights found for airline code {airline_code}: {flights}")
+            return jsonify(flights), 200
+        else:
+            logger.debug(f"No flights found for airline code {airline_code}")
+            return jsonify({"message": "No flights found for the given airline code"}), 404
+    except Exception as e:
+        logger.error(f"Error searching flights by airline code: {e}")
+        return jsonify({"error": str(e)}), 500
+    
+
+
 @socketio.on('connect')
 def handle_connect():
     logger.debug('Client connected')

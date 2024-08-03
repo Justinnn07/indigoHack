@@ -45,6 +45,7 @@ export const useFlights = () => {
     return () => {
       socket.disconnect();
     };
+
     // eslint-disable-next-line
   }, []);
 
